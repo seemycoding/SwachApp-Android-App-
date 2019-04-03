@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.himanshu.linkapp.deleteEvent">
+    <item
+        android:id="@+id/del"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ccom"
+        android:orderInCategory="100"
+        android:title="Mark complete and remove"
+        app:showAsAction="never" />
+
+</menu>

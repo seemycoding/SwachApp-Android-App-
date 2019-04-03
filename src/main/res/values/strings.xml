@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SwachApp</string>
+    <string-array name="planets_array">
+        <item>Choose Issues</item>
+        <item>Reporting illegal use of plastic</item>
+        <item>Garbage or Littering on Land</item>
+        <item>Holes and Road Related Issues</item>
+        <item>Public Toilet Cleaning Issues</item>
+        <item>Contaminated Drinking Water Issues</item>
+        <item>Industry Effluent</item>
+        <item>River Cleaning Issues</item>
+        <item>Water Logging</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.himanshu.linkapp.Main2Activity">
+    <item
+        android:id="@+id/del"
+        android:orderInCategory="100"
+        android:title="Manage Event"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/matt"
+        android:orderInCategory="100"
+        android:title="Attending Event"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mlog"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+
+
+</menu>

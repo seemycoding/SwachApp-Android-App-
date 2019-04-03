@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".addreport">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="378dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Your Name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/roboto" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+
+        android:fontFamily="@font/roboto"
+        android:inputType="textPersonName">
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Your Phone No"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/roboto" />
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="textPersonName"
+
+        />
+
+
+
+
+        <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Complaint Location"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/roboto" />
+        <Button
+            android:id="@+id/lo"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="330dp"
+
+            android:background="@drawable/loc"/>
+
+
+        <EditText
+            android:id="@+id/editlocation"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:ems="10"
+
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/issue"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Reportable Issues"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/roboto" />
+
+        <Spinner
+            android:id="@+id/issues"
+            android:layout_width="363dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:dropDownVerticalOffset="-15dp"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:text="Complaint Description (Max 150 Words)"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:fontFamily="@font/roboto" />
+
+        <EditText
+            android:id="@+id/editdesc"
+            android:layout_width="354dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="25dp"
+            android:ems="50"
+            android:fontFamily="@font/roboto"
+            android:layout_marginTop="15dp"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:lineHeight="22dp"
+            android:paddingLeft="15dp"
+            android:isScrollContainer="true"
+
+            android:background="@drawable/oval"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_shape"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</ScrollView>
+
+
